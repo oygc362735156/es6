@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //ES6 新增了let命令，用来声明变量。它的用法类似于var，但是所声明的变量，只在let命令所在的代码块内有效。
+    // var tmp = new Date();
+    //
+    // function f() {
+    //     console.log(tmp); //undefined
+    //     if (true) {
+    //         let  tmp = 'hello world';
+    //     }
+    // }
+    //
+    // f(); // undefined
+    //
+    // let s = 'hello';
+    //
+    // for (let i = 0; i < s.length; i++) {
+    //     console.log(s[i]);
+    // }
+    // console.log(i) // undefined
+
+    //内层可以访问外层 但是 外层访问不到内层
+    // function f1() {
+    //     let n = 5;
+    //     if (true) {
+    //         // let n = 10;
+    //         console.log(n) //10
+    //     }
+    //     // console.log(n); // 5
+    // }
+    // f1();
+
+    // {
+    //      {
+    //          {
+    //              //let insane = 'Hello World';
+    //              {
+    //                  // let insane = 'Hello World';
+    //                  {
+    //                      console.log(insane) //Hello World
+    //                  }
+    //              }
+    //          }
+    //      }
+    //  }
+    //IIFE函数（自执行函数）
+    // ①
+    // (function (a) {
+    //     if (a === 5) {
+    //         console.log(666)
+    //     } else {
+    //         console.log(777)
+    //     }
+    // })(5)
+    // ②
+    // (function (a) {
+    //     if (a === 5) {
+    //         console.log(666)
+    //     } else {
+    //         console.log(777)
+    //     }
+    // }(5))
+
+    //
+
+    // {
+    //     let tmp =4;
+    //     if(tmp ===5){
+    //         console.log(5);
+    //     }else{
+    //         console.log(6);
+    //     }
+    // }
+
+
+    // function f() { console.log('I am outside!'); }
+    // (function (e) {
+    //    console.log(window);
+    // }(window));
+
+    // var tmp = 123;
+
+    // if (true) {
+    //
+    //     tmp = 'abc'; // ReferenceError
+    //     console.log(tmp);
+    //     let  tmp;
+    //
+    // }
+    (function(e){console.log(e)}(window))
+</script>
+</body>
+</html>
