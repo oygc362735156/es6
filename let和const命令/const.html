@@ -6,6 +6,7 @@
 </head>
 <body>
 <script>
+    //const命令声明的常量也是不提升，同样存在暂时性死区，只能在声明的位置后面使用。
     //const声明一个只读的常量。一旦声明，常量的值就不能改变。
     // const PI = 3.1415;
     // console.log(PI); // 3.1415
@@ -64,6 +65,27 @@
     // document.write(obj.pasta); //"spaghetti"
 
 
+    // function search(a) {
+    //     if (a === 5) {
+    //         console.log(222);
+    //     }
+    //
+    // }
+    // search(5);
+    // (function(a){
+    //     if (a === 5) {
+    //         console.log(444);
+    //     }
+    // }(5));
+    // {
+    //     let a = 5;
+    //
+    //     if (a === 5) {
+    //         console.log(555)
+    //     }
+    //
+    //
+    // }
 </script>
 </body>
 </html>
