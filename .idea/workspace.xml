@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9276275-be0f-4dc1-b7bc-cfa6078b4a76" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/变量的解构赋值/Destructuring（解构）.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/const.html" afterPath="$PROJECT_DIR$/let和const命令/const.html" />
-      <change beforePath="$PROJECT_DIR$/let.html" afterPath="$PROJECT_DIR$/let和const命令/let.html" />
+      <change beforePath="$PROJECT_DIR$/变量的解构赋值/Destructuring（解构）.html" afterPath="$PROJECT_DIR$/变量的解构赋值/Destructuring（解构）.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,8 +30,8 @@
       <file leaf-file-name="Destructuring（解构）.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/变量的解构赋值/Destructuring（解构）.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="662">
-              <caret line="90" column="6" lean-forward="false" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
+            <state relative-caret-position="746">
+              <caret line="105" column="29" lean-forward="false" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -87,7 +85,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-75" />
     <option name="y" value="93" />
     <option name="width" value="1936" />
@@ -173,15 +171,15 @@
       <option name="presentableId" value="Default" />
       <updated>1523850398674</updated>
       <workItem from="1523850401007" duration="14405000" />
-      <workItem from="1523929362933" duration="11417000" />
+      <workItem from="1523929362933" duration="14641000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25822000" />
+    <option name="totallyTimeSpent" value="29046000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15364583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -242,8 +240,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/变量的解构赋值/Destructuring（解构）.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="90" column="6" lean-forward="false" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
+        <state relative-caret-position="746">
+          <caret line="105" column="29" lean-forward="false" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="29" />
           <folding />
         </state>
       </provider>
