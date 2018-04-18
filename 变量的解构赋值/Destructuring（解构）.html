@@ -97,14 +97,95 @@
     // var {x = 3} = {x: null};
     // x // null
 
-    let object = {
-        people:"欧阳",
-        age:"16",
-        address:"徐州"
-    };
+    // let object = {
+    //     people:"欧阳",
+    //     age:"16",
+    //     address:"徐州"
+    // };
+    //
+    // [a,b,c] = [object.people,object.age,object.address];
+    // console.log(a,b,c);
 
-    [a,b,c] = [object.people,];
-    console.log(a,b,c);
+
+    //错误的写法
+    // let x;
+    // {x} = {x: 1};
+    //上面代码的写法会报错，因为 JavaScript 引擎会将{x}理解成一个代码块，从而发生语法错误。只有不将大括号写在行首，避免 JavaScript 将其解释为代码块，才能解决这个问题。
+
+    // 正确的写法
+    // let x;
+    // ({x} = {x: 1});
+
+    // let { log, sin, cos } = Math;
+    // console.log(sin);
+
+    //模拟forEach：
+    //
+    // Array.prototype.forEach = function (fun, context) {
+    //     var len = this.length; //array的length
+    //     if (typeof fun !== "function") {
+    //         throw "输入正确函数!";
+    //     }
+    //     for (var i = 0; i < len; i++) {
+    //          fun( this[i], i, this);
+    //     }
+    // };
+    // var arr = [5, 6, 7];
+    // arr.forEach(function (item, index) {
+    //      console.log(item, index);
+    // });
+    // [(b)] = [3]; // 正确
+    // ({ p: (d) } = {p:3}); // 正确
+    // [(parseInt.prop)] = [3]; // 正确
+    // console.log(b);
+    // console.log(d);
+    // console.log(parseInt.prop);
+
+
+    //用途
+    //①交换变量的值
+    // let a = 1;
+    // let b = 2;
+    // [a,b] = [b,a];
+    // console.log(a); //2
+    // console.log(b); //1
+
+
+    //②返回一个数组
+    // function example() {
+    //     return [1, 2, 3];
+    // }
+    // let [a, b, c] = example();
+
+    //③返回一个对象
+    // function example() {
+    //     return {
+    //         foo: 1,
+    //         bar: 2
+    //     };
+    // }
+    // let { foo:a, bar:b } = example();
+    // console.log(a);
+    // console.log(b);
+
+
+    // const map = new Map();
+    // map.set('first', 'hello');
+    // map.set('second', 'world');
+    //
+    // for (let [key, value] of map) {
+    //     console.log(key + " is " + value);
+    // }
+
+    //火狐控制台打印输出： Object { fileNumber="文件编号", fileName="文件名称"}
+    // console.log(map);
+    const map = new Map();
+    map.set("a","123");
+    map.set("b","456");
+
+    for (let [key,value] of map) {
+        console.log("属性：" + key + ",值：" + value);
+    }
 </script>
 </body>
 </html>
