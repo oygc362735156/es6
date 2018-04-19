@@ -39,9 +39,13 @@
     // //参数NaN等同于0
     // //参数是字符串，会选转换成数字。
     // 'na'.repeat('na') //'nanana'
-    let fn = (a,b) =>a*b;
 
-    console.log(fn(15,878))
+
+    //padStart() padEnd()
+    'x'.padStart(5,"欧阳"); //欧阳欧阳x
+    'x'.padEnd(5,"欧阳"); //x欧阳欧阳
+    'x'.padStart(4,'欧阳'); //欧阳欧x
+    'x'.padEnd(4,'欧阳'); //x欧阳欧
 </script>
 </body>
 </html>
