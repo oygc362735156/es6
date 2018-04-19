@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9276275-be0f-4dc1-b7bc-cfa6078b4a76" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/字符串的扩展/index.html" />
-      <change beforePath="$PROJECT_DIR$/变量的解构赋值/Destructuring（解构）.html" afterPath="$PROJECT_DIR$/变量的解构赋值/Destructuring（解构）.html" />
+      <change beforePath="$PROJECT_DIR$/字符串的扩展/index.html" afterPath="$PROJECT_DIR$/字符串的扩展/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Destructuring（解构）.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Destructuring（解构）.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/变量的解构赋值/Destructuring（解构）.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="389">
@@ -37,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/字符串的扩展/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="567">
+              <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -50,7 +49,7 @@
       <file leaf-file-name="let.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/let和const命令/let.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1806">
+            <state relative-caret-position="851">
               <caret line="86" column="21" lean-forward="false" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
               <folding>
                 <marker date="1523869951949" expanded="true" signature="374:552" ph="..." />
@@ -125,11 +124,6 @@
               <item name="es6" type="b2602c69:ProjectViewProjectNode" />
               <item name="es6" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="es6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="es6" type="462c0819:PsiDirectoryNode" />
-              <item name="字符串的扩展" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -179,11 +173,12 @@
       <workItem from="1523850401007" duration="14405000" />
       <workItem from="1523929362933" duration="14641000" />
       <workItem from="1524014765941" duration="13838000" />
+      <workItem from="1524101337535" duration="7295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42884000" />
+    <option name="totallyTimeSpent" value="50179000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -219,6 +214,40 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/let和const命令/const.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/变量的解构赋值/Destructuring（解构）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3591">
+          <caret line="171" column="29" lean-forward="true" selection-start-line="171" selection-start-column="29" selection-end-line="171" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/字符串的扩展/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/let和const命令/let.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1806">
+          <caret line="86" column="21" lean-forward="false" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+          <folding>
+            <marker date="1523869951949" expanded="true" signature="374:552" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/let和const命令/const.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1617">
@@ -263,7 +292,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/let和const命令/let.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1806">
+        <state relative-caret-position="851">
           <caret line="86" column="21" lean-forward="false" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
           <folding>
             <marker date="1523869951949" expanded="true" signature="374:552" ph="..." />
@@ -271,18 +300,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/变量的解构赋值/Destructuring（解构）.html">
+    <entry file="file://$PROJECT_DIR$/字符串的扩展/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="171" column="29" lean-forward="true" selection-start-line="171" selection-start-column="29" selection-end-line="171" selection-end-column="29" />
+        <state relative-caret-position="567">
+          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/字符串的扩展/index.html">
+    <entry file="file://$PROJECT_DIR$/变量的解构赋值/Destructuring（解构）.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="389">
+          <caret line="171" column="29" lean-forward="true" selection-start-line="171" selection-start-column="29" selection-end-line="171" selection-end-column="29" />
           <folding />
         </state>
       </provider>
