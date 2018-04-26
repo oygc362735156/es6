@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery.min.js"></script>
+</head>
+<body>
+<div id="result"></div>
+<script>
+    //  传统上，JavaScript只有indexOf方法，可以用来确定一个字符串是否包含在另一个字符串中。ES6又提供了三种新方法。
+
+    // includes()：返回布尔值，表示是否找到了参数字符串。
+    // startsWith()：返回布尔值，表示参数字符串是否在原字符串的头部。
+    // endsWith()：返回布尔值，表示参数字符串是否在原字符串的尾部。
+
+    // let s = 'Hello world!';
+    //
+    // s.startsWith('Hello'); // true
+    // s.endsWith('!'); // true
+    // s.includes('o') // true
+    // //这三个方法都支持第二个参数，表示开始搜索的位置。
+    // let s = 'Hello world!';
+    //
+    // s.startsWith('world', 6) // true
+    // s.endsWith('Hello', 5) // true
+    // s.includes('Hello', 6) // false
+
+    //repeat()
+    //repeat方法返回一个新字符串，表示将原字符串重复n次。
+    // 'x'.repeat(3); // "xxx"
+    // 'hello'.repeat(2); // "hellohello"
+    // 'na'.repeat(0); // ""
+    // //如果参数是小数，会被取整
+    // 'na'.repeat(2.9); //'nana'
+    // //如果参数是负数或者是Infinity会报错
+    // 'na'.repeat(-1); //error
+    // 'na'.repeat(Infinity); //error
+    // //但是参数如果再0到-1之间的小数，则等同于0，这是因为会先进行取整运算。0到-1之间的小数，取整以后等于-0，repeat视同为0
+    // 'na'.repeat(-0.9); //''
+    // //参数NaN等同于0
+    // //参数是字符串，会选转换成数字。
+    // 'na'.repeat('na') //'nanana'
+
+
+    //padStart() padEnd() padStart()用于头部补全，padEnd()用于尾部补全。
+    //padStart和padEnd一共接受两个参数，第一个参数用来指定字符串的最小长度，第二个参数是用来补全的字符串。
+    // 'x'.padStart(5, "欧阳"); //欧阳欧阳x
+    // 'x'.padEnd(5, "欧阳"); //x欧阳欧阳
+    // 'x'.padStart(4, '欧阳'); //欧阳欧x
+    // 'x'.padEnd(4, '欧阳'); //x欧阳欧
+    // //如果原字符串的长度，等于或大于指定的最小长度，则返回原字符串。
+    // 'xxx'.padStart(2, "12"); //'xxx'
+    // //用来补全的字符串与原字符串，两者的长度之和超过了指定的最小长度，则会截去超出位数的补全字符串。
+    // 'xxx'.padStart(10, '0123456789'); //0123456xxx
+    // //如果省略第二个参数，默认使用空格补全长度.
+    // 'xx'.padStart(4); //'xx  '
+    // 'xx'.padEnd(4); //'  xx'
+    // //padStart的常见用途是为数值补全指定位数。下面代码生成 10 位的数值字符串
+    // '1'.padStart(10, '0'); // 0000000001
+    // //另一个用途是提示字符串格式。
+    // "12".padStart(10, 'YY-MM-DD'); //YY-MM-12
+
+
+    //模板字符串
+    // $('#result').append(`There are <b>12313</b> items in your basket, <em>456</em> are on sale!`);
+    // $("#result").append(`<input type="button" value="123">`)
+    //模板字符串中嵌入变量，需要将变量名写在${}之中。
+    //大括号内部可以放入任意的 JavaScript 表达式，可以进行运算，以及引用对象属性。
+    // let [name,age] = ["欧阳广晨","25"];
+    //
+    // $("#result").append(`他的名字叫${name},年龄是${age}岁`);
+
+    // let fn = (a, b) => a + b;
+    //
+    // $("#result").append(`${fn(12,12)}`)
+
+    // let obj = {a: 1, b: 2};
+    //
+    // $("#result").append(`${obj.a + obj.b}`);
+    // 如果大括号中的值不是字符串，将按照一般的规则转为字符串。比如，大括号中是一个对象，将默认调用对象的toString方法。
+    //
+    // 如果大括号中的变量没有声明，会报错
+    // 变量place没有声明
+    // let msg = `Hello, ${place}`;
+    // 报错
+</script>
+</body>
+</html>

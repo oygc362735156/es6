@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //ES5的写法
+    // function fn(a, b) {
+    //     b = b || "world";
+    //     console.log(a, b);
+    // }
+    //
+    // fn("hello"); //hello world
+    // fn("hello", "china"); //hello china
+    // fn("hello", '');//hello world
+    //上述第三个的情况 是把空当成了默认值 如果想解决这个问题
+    // if(typeof y === 'undefined'){
+    //     y = 'world';
+    // }
+    // //ES6的写法
+    // let fn = (a,b = "world") => console.log(a,b);
+    // fn('hello'); //hello world
+    // fn('hello','china'); //hello china
+    // fn('hello',''); //hello
+    // let x = 99;
+    // let fn = (p = x +1) => console.log(p)
+    // fn(); //100
+    // x = 100;
+    // fn(); //101
+
+    // 写法一
+    // function m1({x = 0, y = 0} = {}) {
+    //     return [x, y];
+    // }
+    //
+    // // 写法二
+    // function m2({x, y} = { x: 0, y: 0 }) {
+    //     return [x, y];
+    // }
+    // x 和 y 都没有值的情况下
+    // console.log(m1()); //[0,0]
+    // console.log(m2()); //[0,0]
+
+    // x 和 y 都有值的情况
+    // console.log(m1({x: 3, y: 8})); // [3, 8]
+    // console.log(m2({x: 3, y: 8})); // [3, 8]
+
+    //x 有值 y没值
+    // console.log(m1({x: 3})); // [3,0]
+    // console.log(m2({x: 3})); // [3,undefined]
+
+    // //判断是不是数字
+    // function isNumber(num) {
+    //     return typeof num === "number"
+    // }
+    //
+    // //判断是不是整数
+    // function isInteger(num) {
+    //     return num % 1 === 0
+    // }
+    //
+    // //判断是不是2-32的数字
+    // function isNum(b){
+    //     return b < 1 || b > 31
+    // }
+    // function num(a) {
+    //     let arr = [];
+    //     let b = parseInt(a);
+    //     if (!isNumber(b))  return alert("123");
+    //     if (!isInteger(b)) return alert("456");
+    //     if (!isNum(b)) return alert("789");
+    //
+    //     for (let i = 0; i < b; i++) {
+    //         arr.push(Math.floor(Math.random() * 30 + 2));
+    //     }
+    //     for (let j = 0; j < arr.length; j++) {
+    //         for (let k = 0; k < arr.length; k++) {
+    //             if (arr[j] === arr[k]) {
+    //                 arr[j] = Math.floor(Math.random() * 30 + 2);
+    //             }
+    //         }
+    //     }
+    //
+    //     console.log(arr);
+    // }
+    //
+    // num("asdad");
+    // num(3.1);
+    // num(33);
+    // var foo = [1, 2, 3];
+    // var bar = [1, 2, 3];
+    // var foo2 = foo;
+    // var bar2 = bar;
+    // foo = [];
+    // bar.length = 0;
+    // console.log("清空一个数组的例子");
+    // console.log(foo, bar, foo2, bar2);
+
+    function b(x, y, a) {
+        arguments[0] = 10;
+        alert(a);
+    }
+
+    b(1, 2, 3);
+</script>
+</body>
+</html>
